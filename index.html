@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMŮ</title>
+
+                <!--Moje css-->
+        <link rel="stylesheet" href="style-main.css">
+
+                <!--Fonty-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+                <!--Ikonka šipky dolů-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+                <!--AOS - Animate on scroll library css-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <!------------------------Navigace------------------------>
+    <nav>
+        <div class="container">
+            <div class="logo"><img src="klauzury/newlogo-noname.png" alt="logo"></div>
+
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="sidenav-ani">
+                <a href="#up">DOMŮ</a>
+                <a href="#vs">O MNĚ</a>
+                <a href="#sb">SKILLBARY</a>
+                <a href="#mp">MOJE PRÁCE</a>
+                <a href="#kontakt">KONTAKT</a>
+                <p style="text-align: center;">-------------------------------------</p>
+                
+                </div>
+            </div>
+
+    <!------------------------Navigace - Ikona otevření navigace------------------------>
+            <span class="moovement" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+  
+    <!------------------------Navigace - script------------------------>
+                  <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "300px";
+                        document.getElementById("mySidenav").style.height = "350px"; 
+                    }
+                    
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0px";
+                        document.getElementById("mySidenav").style.height = "0px"; 
+                    }
+                  </script>
+
+
+
+        </div>
+    </nav>
+
+
+    <!------------------------Jméno a Příjmení------------------------>
+<div class="jmeno" id="up" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="200">
+    <h1 class="up">Adam <br> Horňák</h1>
+</div>
+
+<div class="header"></div>
+
+
+    <!------------------------Scroll text------------------------>
+<div class="testbounce scroll">
+    <p>Scroll down to see more</p>
+</div>
+
+
+    <!------------------------Scroll tlačítko------------------------>
+<div class="arrow bounce">
+<a href="#vs" class="material-icons">expand_more</a>
+</div>
+
+
+    <!------------------------Spodní část------------------------>
+    <div class="more-info" id="vs">
+
+        <img src="klauzury/Adam-Pointer1.png" alt="Adam pointer" style="float: left;">
+
+
+        <p>Jmenuji se Adam Horňák, je mi 17 let a studuji na střední škole filmové ve Zlíně, obor Vývoj počítačových her a multimediálních aplikací. Rád hraju hry a poslouchám hudbu. Na tuto střední školu chodím moc rád a konečně zažívám pocit, že se ráno vzbudím a chce se mi do školy. <br> <br> Počítač používám již od svých osmi let, kdy jsem dostal svůj úplně první notebook Acer. Časem rodiče koupili nový stolní počítač a já se začal zajímat o to co je uvnitř. Postupem času jsem se začal zajímat o software a sledoval jsem tisíce videí na YouTube, jak co funguje.</p>
+
+    </div>
+
+
+    <!------------------------SkillBary------------------------>
+
+    <h1 class="text-skillbary" id="sb">Skillbary</h1>
+    <section class="skillbar">
+        <h4>HTML</h4>
+        <div class="bar">
+            <div class="skill1">80%</div>
+        </div>
+        <br>
+        <h4>CSS</h4>
+        <div class="bar">
+            <div class="skill2">60%</div>
+        </div>
+        <br>
+        <h4>JS</h4>
+        <div class="bar">
+            <div class="skill3">10%</div>
+        </div>
+    
+    
+    </section>
+<div class="moje-prace">
+    <h1 class="text-mp" id="mp">MOJE PRÁCE</h1>
+
+    <img src="klauzury/web/web1.png" data-aos="fade-up" alt="">
+    <img src="klauzury/web/web2.png" data-aos="fade-up" alt="">
+    <img src="klauzury/web/web3.png" data-aos="fade-up" alt="">
+</div>
+
+    <!------------------------Kontakt------------------------>
+<div class="kontakt" id="kontakt">
+        <h1 class="text-kontakt">Kontakt</h1>
+
+        <div class="kontakt-malytext" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="2000">
+<p>Adam Horňák</p>
+<p><a href="mailto:21090ah@creativehill.cz">21090ah@creativehill.cz</a> </p>
+        </div>
+
+</div>
+    <!------------------------Scripty------------------------>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+<footer>
+   <p>Klauzurní práce | Adam Horňák ©2022</p>
+    <div class="socialnisite-footer">
+        <a href="https://instagram.com/adamhornakk" target="_blank"><img src="klauzury/ico/instagram-c.png" alt="instagram"></a>
+        <a href="https://steamcommunity.com/id/HornyCZE" target="_blank"><img src="klauzury/ico/steam-c.png" alt="steam"></a>
+        <a href="https://open.spotify.com/user/bfxdnu9p2uuw0zrzyhizzi9xg" target="_blank"><img src="klauzury/ico/spotify-c.png" alt="spotify"></a>
+        <a href="mailto:21090ah@creativehill.cz"><img src="klauzury/ico/email.png" alt="email"></a>
+    </div>
+</footer>
+</body>
+</html>
